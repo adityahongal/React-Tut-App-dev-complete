@@ -1,4 +1,4 @@
-import Profile from './Profile.js';
+import Profile from './profile.js';
 
 export default function Gallery() {
   return (
