@@ -5,7 +5,8 @@ import ReactDOM from 'react-dom/client';
 // import Gallery from './gallery.js';
 // import TodoList from './javascript-in-JSX.js';
 // import Profile from './passing-props-to-children';
-import PackingList from './conditional-render-overview.js'
+// import PackingList from './conditional-render-overview.js'
+import List from './rendering-lists-overview';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,7 +17,8 @@ root.render(
     {/* <Profile /> */}
     {/* <TodoList /> */}
     {/* <Profile/> */}
-    <PackingList/>
+    {/* <PackingList/> */}
+    <List />
   </React.StrictMode>
 );
 
