@@ -9,7 +9,7 @@ export default function Profile() {
   return (
     <Card>
       <Avatar
-        size={100}
+        size={300}
         person={{
           name: 'Katsuko Saruhashi',
           imageId: 'YfeOqp2'
