@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import Profile from './profile.js';
 // import Gallery from './gallery.js';
-import TodoList from './javascript-in-JSX.js';
-
+// import TodoList from './javascript-in-JSX.js';
+import Profile from './passing-props-to-children';
 // import App from './App';
 
 
@@ -13,7 +13,8 @@ root.render(
     {/* <App /> */}
     {/* <Gallery /> */}
     {/* <Profile /> */}
-    <TodoList />
+    {/* <TodoList /> */}
+    <Profile/>
   </React.StrictMode>
 );
 
