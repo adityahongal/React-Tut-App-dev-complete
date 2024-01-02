@@ -14,7 +14,8 @@ import ReactDOM from 'react-dom/client';
 // import Gallery from './image-gallery-interactivity';
 // import Form from './simplechatapp';
 // import Form from './updating-objects-state-simple';
-import BucketList from './updating-arrays-state-simple';
+// import BucketList from './updating-arrays-state-simple';
+import SimpleButton from './simple-event-handler';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,7 +34,8 @@ root.render(
     {/* <Gallery /> */}
     {/* <Form/> */}
     {/* <Form/> */}
-    <BucketList/>
+    {/* <BucketList/> */}
+    <SimpleButton />
   </React.StrictMode>
 );
 
