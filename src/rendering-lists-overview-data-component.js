@@ -1,4 +1,4 @@
-
+// Child component carrying data
 
 export const people = [{
     id: 0,
