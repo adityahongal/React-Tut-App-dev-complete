@@ -10,8 +10,8 @@ import ReactDOM from 'react-dom/client';
 // import Avatar from './curlybraces';
 // import DoubleCurlies from './doublecurlybraces';
 // import Clocky from './clock';
-import App from './simpleinteractivity';
-
+// import App from './simpleinteractivity';
+import Gallery from './image-gallery-interactivity';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,7 +26,8 @@ root.render(
     {/* <Avatar/> */}
     {/* <DoubleCurlies/> */}
     {/* <Clocky/> */}
-    <App />
+    {/* <App /> */}
+    <Gallery />
   </React.StrictMode>
 );
 
