@@ -18,7 +18,8 @@ import ReactDOM from 'react-dom/client';
 // import SimpleButton from './simple-event-handler';
 // import Toolbar from './alert-button-interactivity';
 // import ToolbarProps from './event-handlers-as-props';
-import CustomEventHandlerNames from './custom-prop-names';
+// import CustomEventHandlerNames from './custom-prop-names';
+import EventPropagation from './event-propagation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -41,7 +42,8 @@ root.render(
     {/* <SimpleButton /> */}
     {/* <Toolbar/> */}
     {/* <ToolbarProps/> */}
-    <CustomEventHandlerNames/>
+    {/* <CustomEventHandlerNames/> */}
+    <EventPropagation/>
   </React.StrictMode>
 );
 
