@@ -9,7 +9,8 @@ import ReactDOM from 'react-dom/client';
 // import List from './rendering-lists-overview';
 // import Avatar from './curlybraces';
 // import DoubleCurlies from './doublecurlybraces';
-import Clocky from './clock';
+// import Clocky from './clock';
+import App from './simpleinteractivity';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,7 +25,8 @@ root.render(
     {/* <List /> */}
     {/* <Avatar/> */}
     {/* <DoubleCurlies/> */}
-    <Clocky/>
+    {/* <Clocky/> */}
+    <App />
   </React.StrictMode>
 );
 
