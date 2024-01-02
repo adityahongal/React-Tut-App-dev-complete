@@ -20,7 +20,8 @@ import ReactDOM from 'react-dom/client';
 // import ToolbarProps from './event-handlers-as-props';
 // import CustomEventHandlerNames from './custom-prop-names';
 // import EventPropagation from './event-propagation';
-import StoppingEventPropagation from './stopping-event-propagation';
+// import StoppingEventPropagation from './stopping-event-propagation';
+import Signup from './preventing-default-behavior';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -45,7 +46,8 @@ root.render(
     {/* <ToolbarProps/> */}
     {/* <CustomEventHandlerNames/> */}
     {/* <EventPropagation/> */}
-    <StoppingEventPropagation/>
+    {/* <StoppingEventPropagation/> */}
+    <Signup/>
   </React.StrictMode>
 );
 
