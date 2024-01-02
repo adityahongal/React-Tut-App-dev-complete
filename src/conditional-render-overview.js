@@ -17,21 +17,30 @@ function Item({ name, isPacked }) {
 export default function PackingList() {
   return (
     <section>
-      <h1>Sally Ride's Packing List</h1>
+      <h1>L K Subramanya's Ride's Packing List</h1>
       <ul>
         <Item
           isPacked={true}
-          name="Space suit"
+          name="Riding Gear"
         />
         <Item
           isPacked={true}
-          name="Helmet with a golden leaf"
+          name="Helmet with clear visor"
         />
         <Item
           isPacked={false}
-          name="Photo of Tam"
+          name="Chain Lube"
         />
       </ul>
     </section>
   );
 }
+
+
+
+
+
+
+// In JSX, {cond ? <A /> : <B />} means “if cond, render <A />, otherwise <B />”.
+// In JSX, {cond && <A />} means “if cond, render <A />, otherwise nothing”.
+// The shortcuts are common, but you don’t have to use them if you prefer plain "if".
