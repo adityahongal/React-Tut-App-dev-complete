@@ -15,7 +15,8 @@ import ReactDOM from 'react-dom/client';
 // import Form from './simplechatapp';
 // import Form from './updating-objects-state-simple';
 // import BucketList from './updating-arrays-state-simple';
-import SimpleButton from './simple-event-handler';
+// import SimpleButton from './simple-event-handler';
+import Toolbar from './alert-button-interactivity';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,7 +36,8 @@ root.render(
     {/* <Form/> */}
     {/* <Form/> */}
     {/* <BucketList/> */}
-    <SimpleButton />
+    {/* <SimpleButton /> */}
+    <Toolbar/>
   </React.StrictMode>
 );
 
