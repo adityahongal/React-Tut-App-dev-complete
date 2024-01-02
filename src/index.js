@@ -16,7 +16,9 @@ import ReactDOM from 'react-dom/client';
 // import Form from './updating-objects-state-simple';
 // import BucketList from './updating-arrays-state-simple';
 // import SimpleButton from './simple-event-handler';
-import Toolbar from './alert-button-interactivity';
+// import Toolbar from './alert-button-interactivity';
+// import ToolbarProps from './event-handlers-as-props';
+import CustomEventHandlerNames from './custom-prop-names';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -37,7 +39,9 @@ root.render(
     {/* <Form/> */}
     {/* <BucketList/> */}
     {/* <SimpleButton /> */}
-    <Toolbar/>
+    {/* <Toolbar/> */}
+    {/* <ToolbarProps/> */}
+    <CustomEventHandlerNames/>
   </React.StrictMode>
 );
 
