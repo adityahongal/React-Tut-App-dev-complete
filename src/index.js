@@ -11,7 +11,8 @@ import ReactDOM from 'react-dom/client';
 // import DoubleCurlies from './doublecurlybraces';
 // import Clocky from './clock';
 // import App from './simpleinteractivity';
-import Gallery from './image-gallery-interactivity';
+// import Gallery from './image-gallery-interactivity';
+import Form from './simplechatapp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,7 +28,8 @@ root.render(
     {/* <DoubleCurlies/> */}
     {/* <Clocky/> */}
     {/* <App /> */}
-    <Gallery />
+    {/* <Gallery /> */}
+    <Form/>
   </React.StrictMode>
 );
 
