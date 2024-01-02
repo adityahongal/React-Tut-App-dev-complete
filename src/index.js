@@ -7,6 +7,7 @@ import ReactDOM from 'react-dom/client';
 // import Profile from './passing-props-to-children';
 // import PackingList from './conditional-render-overview.js'
 // import List from './rendering-lists-overview';
+import Avatar from './curlybraces';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +20,7 @@ root.render(
     {/* <Profile/> */}
     {/* <PackingList/> */}
     {/* <List /> */}
+    <Avatar/>
   </React.StrictMode>
 );
 
