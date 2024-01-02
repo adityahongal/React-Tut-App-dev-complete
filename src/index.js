@@ -8,7 +8,8 @@ import ReactDOM from 'react-dom/client';
 // import PackingList from './conditional-render-overview.js'
 // import List from './rendering-lists-overview';
 // import Avatar from './curlybraces';
-import DoubleCurlies from './doublecurlybraces';
+// import DoubleCurlies from './doublecurlybraces';
+import Clocky from './clock';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,7 +23,8 @@ root.render(
     {/* <PackingList/> */}
     {/* <List /> */}
     {/* <Avatar/> */}
-    <DoubleCurlies/>
+    {/* <DoubleCurlies/> */}
+    <Clocky/>
   </React.StrictMode>
 );
 
