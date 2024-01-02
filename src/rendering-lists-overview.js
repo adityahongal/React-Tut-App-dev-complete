@@ -6,6 +6,8 @@
 // For each array item, you will need to specify a key. Usually, you will want to use an ID from the database as a key. 
 // Keys let React keep track of each item’s place in the list even if the list changes.
 
+// Main parent component
+
 import { people } from './rendering-lists-overview-data-component.js';
 import { getImageUrl } from './rendering-lists-overview-utils-component.js';
 
