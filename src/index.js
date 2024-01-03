@@ -29,7 +29,8 @@ import ReactDOM from 'react-dom/client';
 // import SeriesOfStateUpdates from './series-of-state-updates';
 // import UpdatingObjectStateDeep from './updating-objects-state-deepdive';
 // import SpreadSyntaxForm from './copying-objects-with-spreadsyntax';
-import UpdatingNestedObjects from './updating-nested-objects';
+// import UpdatingNestedObjects from './updating-nested-objects';
+import ImmerExample from './update-logic-with-immer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -63,7 +64,8 @@ root.render(
     {/* <SeriesOfStateUpdates/> */}
     {/* <UpdatingObjectStateDeep/> */}
     {/* <SpreadSyntaxForm/> */}
-    <UpdatingNestedObjects/>
+    {/* <UpdatingNestedObjects/> */}
+    <ImmerExample/>
   </React.StrictMode>
 );
 
