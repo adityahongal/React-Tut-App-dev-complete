@@ -24,7 +24,9 @@ import ReactDOM from 'react-dom/client';
 // import Signup from './preventing-default-behavior';
 // import MultiStates from './multi-state-for-components';
 // import TriggerRender from './trigger-a-render';
-import RenderReact from './react-render-component';
+// import RenderReact from './react-render-component';
+// import ReactCommitsDOM from './react-commit-DOM';
+import SeriesOfStateUpdates from './series-of-state-updates';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -53,7 +55,9 @@ root.render(
     {/* <Signup/> */}
     {/* <MultiStates/> */}
     {/* <TriggerRender/> */}
-    <RenderReact/>
+    {/* <RenderReact/> */}
+    {/* <ReactCommitsDOM/> */}
+    <SeriesOfStateUpdates/>
   </React.StrictMode>
 );
 
