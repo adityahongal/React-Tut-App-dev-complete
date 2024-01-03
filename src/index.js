@@ -27,7 +27,8 @@ import ReactDOM from 'react-dom/client';
 // import RenderReact from './react-render-component';
 // import ReactCommitsDOM from './react-commit-DOM';
 // import SeriesOfStateUpdates from './series-of-state-updates';
-import UpdatingObjectStateDeep from './updating-objects-state-deepdive';
+// import UpdatingObjectStateDeep from './updating-objects-state-deepdive';
+import SpreadSyntaxForm from './copying-objects-with-spreadsyntax';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -59,7 +60,8 @@ root.render(
     {/* <RenderReact/> */}
     {/* <ReactCommitsDOM/> */}
     {/* <SeriesOfStateUpdates/> */}
-    <UpdatingObjectStateDeep/>
+    {/* <UpdatingObjectStateDeep/> */}
+    <SpreadSyntaxForm/>
   </React.StrictMode>
 );
 
