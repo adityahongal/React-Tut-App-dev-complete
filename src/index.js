@@ -21,7 +21,8 @@ import ReactDOM from 'react-dom/client';
 // import CustomEventHandlerNames from './custom-prop-names';
 // import EventPropagation from './event-propagation';
 // import StoppingEventPropagation from './stopping-event-propagation';
-import Signup from './preventing-default-behavior';
+// import Signup from './preventing-default-behavior';
+import MultiStates from './multi-state-for-components';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -47,7 +48,8 @@ root.render(
     {/* <CustomEventHandlerNames/> */}
     {/* <EventPropagation/> */}
     {/* <StoppingEventPropagation/> */}
-    <Signup/>
+    {/* <Signup/> */}
+    <MultiStates/>
   </React.StrictMode>
 );
 
