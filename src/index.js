@@ -23,7 +23,8 @@ import ReactDOM from 'react-dom/client';
 // import StoppingEventPropagation from './stopping-event-propagation';
 // import Signup from './preventing-default-behavior';
 // import MultiStates from './multi-state-for-components';
-import TriggerRender from './trigger-a-render';
+// import TriggerRender from './trigger-a-render';
+import RenderReact from './react-render-component';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -51,7 +52,8 @@ root.render(
     {/* <StoppingEventPropagation/> */}
     {/* <Signup/> */}
     {/* <MultiStates/> */}
-    <TriggerRender/>
+    {/* <TriggerRender/> */}
+    <RenderReact/>
   </React.StrictMode>
 );
 
