@@ -26,7 +26,8 @@ import ReactDOM from 'react-dom/client';
 // import TriggerRender from './trigger-a-render';
 // import RenderReact from './react-render-component';
 // import ReactCommitsDOM from './react-commit-DOM';
-import SeriesOfStateUpdates from './series-of-state-updates';
+// import SeriesOfStateUpdates from './series-of-state-updates';
+import UpdatingObjectStateDeep from './updating-objects-state-deepdive';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -57,7 +58,8 @@ root.render(
     {/* <TriggerRender/> */}
     {/* <RenderReact/> */}
     {/* <ReactCommitsDOM/> */}
-    <SeriesOfStateUpdates/>
+    {/* <SeriesOfStateUpdates/> */}
+    <UpdatingObjectStateDeep/>
   </React.StrictMode>
 );
 
