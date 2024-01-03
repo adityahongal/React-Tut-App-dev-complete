@@ -30,4 +30,4 @@ export default function Signup() {
 // Don’t confuse e.stopPropagation() and e.preventDefault(). They are both useful, but are unrelated:
 
 // e.stopPropagation() stops the event handlers attached to the tags above from firing.
-// e.preventDefault() prevents the default browser behavior for the few events that have it.
+// e.preventDefault() prevents the default browser behavior for the few events that have it
