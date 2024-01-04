@@ -32,7 +32,8 @@ import ReactDOM from 'react-dom/client';
 // import UpdatingNestedObjects from './updating-nested-objects';
 // import ImmerExample from './update-logic-with-immer';
 // import NoMutateArrayAdding from './without-mutate-array-adding';
-import WithoutMutateArrayDelete from './without-mutate-array-Removing';
+// import WithoutMutateArrayDelete from './without-mutate-array-Removing';
+import WithoutMutateArrayTransform from './without-mutate-array-transform';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -69,7 +70,8 @@ root.render(
     {/* <UpdatingNestedObjects/> */}
     {/* <ImmerExample/> */}
     {/* <NoMutateArrayAdding/> */}
-    <WithoutMutateArrayDelete/>
+    {/* <WithoutMutateArrayDelete/> */}
+    <WithoutMutateArrayTransform/>
   </React.StrictMode>
 );
 
