@@ -31,7 +31,8 @@ import ReactDOM from 'react-dom/client';
 // import SpreadSyntaxForm from './copying-objects-with-spreadsyntax';
 // import UpdatingNestedObjects from './updating-nested-objects';
 // import ImmerExample from './update-logic-with-immer';
-import NoMutateArrayAdding from './without-mutate-array-adding';
+// import NoMutateArrayAdding from './without-mutate-array-adding';
+import WithoutMutateArrayDelete from './without-mutate-array-Removing';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -67,7 +68,8 @@ root.render(
     {/* <SpreadSyntaxForm/> */}
     {/* <UpdatingNestedObjects/> */}
     {/* <ImmerExample/> */}
-    <NoMutateArrayAdding/>
+    {/* <NoMutateArrayAdding/> */}
+    <WithoutMutateArrayDelete/>
   </React.StrictMode>
 );
 
