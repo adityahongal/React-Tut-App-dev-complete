@@ -37,7 +37,8 @@ import ReactDOM from 'react-dom/client';
 // import WithoutMutateArrayReplace from './without-mutate-array-replace';
 // import WithoutMutateArrayInsertion from './without-mutate-array-insertion';
 // import WithoutMutateArrayReverse from './without-mutate-array-reverse.js';
-import UpdatingObjectsInsideArrays from './updating-objects-inside-arrays.js';
+// import UpdatingObjectsInsideArrays from './updating-objects-inside-arrays.js';
+import UpdatingObjectUsingImmer from './updating-objects-inside-arrays-using-Immer.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -79,6 +80,7 @@ root.render(
     {/* <WithoutMutateArrayReplace/> */}
     {/* <WithoutMutateArrayInsertion/> */}
     {/* <WithoutMutateArrayReverse/> */}
-    <UpdatingObjectsInsideArrays/>
+    {/* <UpdatingObjectsInsideArrays/> */}
+    <UpdatingObjectUsingImmer/>
   </React.StrictMode>
 );
