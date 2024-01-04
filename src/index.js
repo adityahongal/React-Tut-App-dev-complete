@@ -35,7 +35,8 @@ import ReactDOM from 'react-dom/client';
 // import WithoutMutateArrayDelete from './without-mutate-array-Removing';
 // import WithoutMutateArrayTransform from './without-mutate-array-transform';
 // import WithoutMutateArrayReplace from './without-mutate-array-replace';
-import WithoutMutateArrayInsertion from './without-mutate-array-insertion';
+// import WithoutMutateArrayInsertion from './without-mutate-array-insertion';
+import WithoutMutateArrayReverse from './without-mutate-array-reverse.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -75,7 +76,7 @@ root.render(
     {/* <WithoutMutateArrayDelete/> */}
     {/* <WithoutMutateArrayTransform/> */}
     {/* <WithoutMutateArrayReplace/> */}
-    <WithoutMutateArrayInsertion/>
+    {/* <WithoutMutateArrayInsertion/> */}
+    <WithoutMutateArrayReverse/>
   </React.StrictMode>
 );
-
