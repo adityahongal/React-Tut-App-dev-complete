@@ -33,7 +33,8 @@ import ReactDOM from 'react-dom/client';
 // import ImmerExample from './update-logic-with-immer';
 // import NoMutateArrayAdding from './without-mutate-array-adding';
 // import WithoutMutateArrayDelete from './without-mutate-array-Removing';
-import WithoutMutateArrayTransform from './without-mutate-array-transform';
+// import WithoutMutateArrayTransform from './without-mutate-array-transform';
+import WithoutMutateArrayReplace from './without-mutate-array-replace';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -71,7 +72,8 @@ root.render(
     {/* <ImmerExample/> */}
     {/* <NoMutateArrayAdding/> */}
     {/* <WithoutMutateArrayDelete/> */}
-    <WithoutMutateArrayTransform/>
+    {/* <WithoutMutateArrayTransform/> */}
+    <WithoutMutateArrayReplace/>
   </React.StrictMode>
 );
 
