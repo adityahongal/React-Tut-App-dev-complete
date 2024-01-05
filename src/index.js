@@ -45,7 +45,8 @@ import ReactDOM from 'react-dom/client';
 // import ReactIntermediateOverviewFour from './react-intermediate-overview-4.js';
 // import ReactIntermediateOverviewFive from './react-intermediate-overview-5.js';
 // import ReactIntermediateOverviewSix from './react-intermediate-overview-6.js';
-import ReactIntermediateOverviewSeven from './react-intermediate-overview-7.js';
+// import ReactIntermediateOverviewSeven from './react-intermediate-overview-7.js';
+import ReactingToInputWithState from './reacting-to-input-with-state-intermediate.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -95,6 +96,7 @@ root.render(
     {/* <ReactIntermediateOverviewFour/> */}
     {/* <ReactIntermediateOverviewFive/> */}
     {/* <ReactIntermediateOverviewSix/> */}
-    <ReactIntermediateOverviewSeven/>
+    {/* <ReactIntermediateOverviewSeven/> */}
+    <ReactingToInputWithState/>
   </React.StrictMode>
 );
