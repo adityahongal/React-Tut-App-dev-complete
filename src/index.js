@@ -39,7 +39,8 @@ import ReactDOM from 'react-dom/client';
 // import WithoutMutateArrayReverse from './without-mutate-array-reverse.js';
 // import UpdatingObjectsInsideArrays from './updating-objects-inside-arrays.js';
 // import UpdatingObjectUsingImmer from './updating-objects-inside-arrays-using-Immer.js';
-import IntermediateOverviewOne from './react-intermediate-overview-1';
+// import ReactIntermediateOverviewOne from './react-intermediate-overview-1';
+import ReactIntermediateOverviewTwo from './react-intermediate-overview-2.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -83,6 +84,7 @@ root.render(
     {/* <WithoutMutateArrayReverse/> */}
     {/* <UpdatingObjectsInsideArrays/> */}
     {/* <UpdatingObjectUsingImmer/> */}
-    <IntermediateOverviewOne/>
+    {/* <ReactIntermediateOverviewOne/> */}
+    <ReactIntermediateOverviewTwo/>
   </React.StrictMode>
 );

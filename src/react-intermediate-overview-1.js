@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-export default function IntermediateOverviewOne() {
+export default function ReactIntermediateOverviewOne() {
   const [answer, setAnswer] = useState('');
   const [error, setError] = useState(null);
   const [status, setStatus] = useState('typing');
