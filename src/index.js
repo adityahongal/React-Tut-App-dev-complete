@@ -44,7 +44,8 @@ import ReactDOM from 'react-dom/client';
 // import ReactIntermediateOverviewThree from './react-intermediate-overview-3.js';
 // import ReactIntermediateOverviewFour from './react-intermediate-overview-4.js';
 // import ReactIntermediateOverviewFive from './react-intermediate-overview-5.js';
-import ReactIntermediateOverviewSix from './react-intermediate-overview-6.js';
+// import ReactIntermediateOverviewSix from './react-intermediate-overview-6.js';
+import ReactIntermediateOverviewSeven from './react-intermediate-overview-7.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -93,6 +94,7 @@ root.render(
     {/* <ReactIntermediateOverviewThree/> */}
     {/* <ReactIntermediateOverviewFour/> */}
     {/* <ReactIntermediateOverviewFive/> */}
-    <ReactIntermediateOverviewSix/>
+    {/* <ReactIntermediateOverviewSix/> */}
+    <ReactIntermediateOverviewSeven/>
   </React.StrictMode>
 );
