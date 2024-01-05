@@ -40,7 +40,8 @@ import ReactDOM from 'react-dom/client';
 // import UpdatingObjectsInsideArrays from './updating-objects-inside-arrays.js';
 // import UpdatingObjectUsingImmer from './updating-objects-inside-arrays-using-Immer.js';
 // import ReactIntermediateOverviewOne from './react-intermediate-overview-1';
-import ReactIntermediateOverviewTwo from './react-intermediate-overview-2.js';
+// import ReactIntermediateOverviewTwo from './react-intermediate-overview-2.js';
+import ReactIntermediateOverviewThree from './react-intermediate-overview-3.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -85,6 +86,7 @@ root.render(
     {/* <UpdatingObjectsInsideArrays/> */}
     {/* <UpdatingObjectUsingImmer/> */}
     {/* <ReactIntermediateOverviewOne/> */}
-    <ReactIntermediateOverviewTwo/>
+    {/* <ReactIntermediateOverviewTwo/> */}
+    <ReactIntermediateOverviewThree/>
   </React.StrictMode>
 );
