@@ -52,7 +52,8 @@ import ReactDOM from 'react-dom/client';
 // import AvoidRedundantState from './avoid-redundant-state';
 // import AvoidDuplicateState from './avoid-duplicate-state.js';
 // import AvoidDeeplyNestedState from './avoid-deeply-nested-state.js';
-import SharingStateBetweenComponents from './sharing-state-between-components.js';
+// import SharingStateBetweenComponents from './sharing-state-between-components.js';
+import PreservingStateOne from './preserving-state-1.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -109,6 +110,7 @@ root.render(
     {/* <AvoidRedundantState/> */}
     {/* <AvoidDuplicateState/> */}
     {/* <AvoidDeeplyNestedState/> */}
-    <SharingStateBetweenComponents/>
+    {/* <SharingStateBetweenComponents/> */}
+    <PreservingStateOne/>
   </React.StrictMode>
 );
