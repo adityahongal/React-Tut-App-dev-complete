@@ -50,7 +50,8 @@ import ReactDOM from 'react-dom/client';
 // import GroupRelatedState from './group-related-state.js';
 // import AvoidContradictionsInState from './avoid-contradictions-in-state';
 // import AvoidRedundantState from './avoid-redundant-state';
-import AvoidDuplicateState from './avoid-duplicate-state.js';
+// import AvoidDuplicateState from './avoid-duplicate-state.js';
+import AvoidDeeplyNestedState from './avoid-deeply-nested-state.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -105,6 +106,7 @@ root.render(
     {/* <GroupRelatedState/> */}
     {/* <AvoidContradictionsInState/> */}
     {/* <AvoidRedundantState/> */}
-    <AvoidDuplicateState/>
+    {/* <AvoidDuplicateState/> */}
+    <AvoidDeeplyNestedState/>
   </React.StrictMode>
 );
