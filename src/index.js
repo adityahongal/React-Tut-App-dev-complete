@@ -49,7 +49,8 @@ import ReactDOM from 'react-dom/client';
 // import ReactingToInputWithState from './reacting-to-input-with-state-intermediate.js'
 // import GroupRelatedState from './group-related-state.js';
 // import AvoidContradictionsInState from './avoid-contradictions-in-state';
-import AvoidRedundantState from './avoid-redundant-state';
+// import AvoidRedundantState from './avoid-redundant-state';
+import AvoidDuplicateState from './avoid-duplicate-state.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -103,6 +104,7 @@ root.render(
     {/* <ReactingToInputWithState/> */}
     {/* <GroupRelatedState/> */}
     {/* <AvoidContradictionsInState/> */}
-        <AvoidRedundantState/>
+    {/* <AvoidRedundantState/> */}
+    <AvoidDuplicateState/>
   </React.StrictMode>
 );
