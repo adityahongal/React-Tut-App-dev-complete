@@ -1,4 +1,4 @@
-// Preserving a STATE
+// PRESERVING THE STATE
 
 // State is tied to a position in the render tree 
 
