@@ -47,7 +47,8 @@ import ReactDOM from 'react-dom/client';
 // import ReactIntermediateOverviewSix from './react-intermediate-overview-6.js';
 // import ReactIntermediateOverviewSeven from './react-intermediate-overview-7.js';
 // import ReactingToInputWithState from './reacting-to-input-with-state-intermediate.js'
-import GroupRelatedState from './group-related-state.js';
+// import GroupRelatedState from './group-related-state.js';
+import AvoidContradictionsInState from './avoid-contradictions-in-state';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -99,6 +100,7 @@ root.render(
     {/* <ReactIntermediateOverviewSix/> */}
     {/* <ReactIntermediateOverviewSeven/> */}
     {/* <ReactingToInputWithState/> */}
-    <GroupRelatedState/>
+    {/* <GroupRelatedState/> */}
+    <AvoidContradictionsInState/>
   </React.StrictMode>
 );
