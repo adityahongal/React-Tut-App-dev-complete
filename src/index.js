@@ -51,7 +51,8 @@ import ReactDOM from 'react-dom/client';
 // import AvoidContradictionsInState from './avoid-contradictions-in-state';
 // import AvoidRedundantState from './avoid-redundant-state';
 // import AvoidDuplicateState from './avoid-duplicate-state.js';
-import AvoidDeeplyNestedState from './avoid-deeply-nested-state.js';
+// import AvoidDeeplyNestedState from './avoid-deeply-nested-state.js';
+import SharingStateBetweenComponents from './sharing-state-between-components.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -107,6 +108,7 @@ root.render(
     {/* <AvoidContradictionsInState/> */}
     {/* <AvoidRedundantState/> */}
     {/* <AvoidDuplicateState/> */}
-    <AvoidDeeplyNestedState/>
+    {/* <AvoidDeeplyNestedState/> */}
+    <SharingStateBetweenComponents/>
   </React.StrictMode>
 );
