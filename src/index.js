@@ -55,7 +55,8 @@ import ReactDOM from 'react-dom/client';
 // import SharingStateBetweenComponents from './sharing-state-between-components.js';
 // import PreservingStateOne from './preserving-state-1.js';
 // import PreservingStateTwo from './components/preserved-state-2';
-import ResettingStateOne from './components/Reset-state-1';
+// import ResettingStateOne from './components/Reset-state-1';
+import ResettingStateSamePositionOne from './components/Reset-state-same-position-1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -115,6 +116,7 @@ root.render(
     {/* <SharingStateBetweenComponents/> */}
     {/* <PreservingStateOne/> */}
     {/* <PreservingStateTwo/> */}
-    <ResettingStateOne/>
+    {/* <ResettingStateOne/> */}
+    <ResettingStateSamePositionOne/>
   </React.StrictMode>
 );
