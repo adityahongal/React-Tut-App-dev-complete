@@ -58,7 +58,8 @@ import ReactDOM from 'react-dom/client';
 // import ResettingStateOne from './components/Reset-state-1';
 // import ResettingStateSamePositionOne from './components/Reset-state-same-position-1';
 // import ResettingStateSamePositionTwo from './components/Reset-state-same-position-2';
-import ResettingFormWithKey from './components/Resetting-form-with-key';
+// import ResettingFormWithKey from './components/Resetting-form-with-key';
+import TaskApp from './components/extracting-state-logic-into-reducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -121,6 +122,7 @@ root.render(
     {/* <ResettingStateOne/> */}
     {/* <ResettingStateSamePositionOne/> */}
     {/* <ResettingStateSamePositionTwo/> */}
-    <ResettingFormWithKey/>
+    {/* <ResettingFormWithKey/> */}
+    <TaskApp/>
   </React.StrictMode>
 );
