@@ -59,7 +59,8 @@ import ReactDOM from 'react-dom/client';
 // import ResettingStateSamePositionOne from './components/Reset-state-same-position-1';
 // import ResettingStateSamePositionTwo from './components/Reset-state-same-position-2';
 // import ResettingFormWithKey from './components/Resetting-form-with-key';
-import TaskApp from './components/extracting-state-logic-into-reducer';
+// import TaskApp from './components/extracting-state-logic-into-reducer';
+import PassingDataDeeplyWithContext from './components/passing-data-deeply-with-context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -123,6 +124,7 @@ root.render(
     {/* <ResettingStateSamePositionOne/> */}
     {/* <ResettingStateSamePositionTwo/> */}
     {/* <ResettingFormWithKey/> */}
-    <TaskApp/>
+    {/* <TaskApp/> */}
+    <PassingDataDeeplyWithContext/>
   </React.StrictMode>
 );
