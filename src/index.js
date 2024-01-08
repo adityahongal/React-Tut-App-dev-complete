@@ -62,7 +62,8 @@ import ReactDOM from 'react-dom/client';
 // import TaskApp from './components/extracting-state-logic-into-reducer';
 // import PassingDataDeeplyWithContext from './components/passing-data-deeply-with-context';
 // import UsingProvidingContextSameComponent from './components/using-providing-same-context-from-component';
-import ContextPassesIntermediateComponents from './components/context-passes-through-intermediate-components';
+// import ContextPassesIntermediateComponents from './components/context-passes-through-intermediate-components';
+import CombiningReducerWithContext from './components/combining-reducer-with-context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -129,6 +130,7 @@ root.render(
     {/* <TaskApp/> */}
     {/* <PassingDataDeeplyWithContext/> */}
     {/* <UsingProvidingContextSameComponent/> */}
-    <ContextPassesIntermediateComponents/>
+    {/* <ContextPassesIntermediateComponents/> */}
+    <CombiningReducerWithContext/>
   </React.StrictMode>
 );
