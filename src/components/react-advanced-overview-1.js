@@ -1,4 +1,4 @@
-// Escape Hatches
+// Escape Hatches Overview
 
 // Some of your components may need to control and synchronize with systems outside of React. 
 // For example, you might need to focus an input using the browser API, 

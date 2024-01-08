@@ -64,7 +64,8 @@ import ReactDOM from 'react-dom/client';
 // import UsingProvidingContextSameComponent from './components/using-providing-same-context-from-component';
 // import ContextPassesIntermediateComponents from './components/context-passes-through-intermediate-components';
 // import CombiningReducerWithContext from './components/combining-reducer-with-context';
-import ReactAdvancedOverviewOne from './components/react-advanced-overview-1.js';
+// import ReactAdvancedOverviewOne from './components/react-advanced-overview-1.js';
+import ReactAdvancedOverviewTwo from './react-advanced-overview-2.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -133,6 +134,7 @@ root.render(
     {/* <UsingProvidingContextSameComponent/> */}
     {/* <ContextPassesIntermediateComponents/> */}
     {/* <CombiningReducerWithContext/> */}
-    <ReactAdvancedOverviewOne/>
+    {/* <ReactAdvancedOverviewOne/> */}
+    <ReactAdvancedOverviewTwo/>
   </React.StrictMode>
 );
