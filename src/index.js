@@ -56,7 +56,8 @@ import ReactDOM from 'react-dom/client';
 // import PreservingStateOne from './preserving-state-1.js';
 // import PreservingStateTwo from './components/preserved-state-2';
 // import ResettingStateOne from './components/Reset-state-1';
-import ResettingStateSamePositionOne from './components/Reset-state-same-position-1';
+// import ResettingStateSamePositionOne from './components/Reset-state-same-position-1';
+import ResettingStateSamePositionTwo from './components/Reset-state-same-position-2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -117,6 +118,7 @@ root.render(
     {/* <PreservingStateOne/> */}
     {/* <PreservingStateTwo/> */}
     {/* <ResettingStateOne/> */}
-    <ResettingStateSamePositionOne/>
+    {/* <ResettingStateSamePositionOne/> */}
+    <ResettingStateSamePositionTwo/>
   </React.StrictMode>
 );
