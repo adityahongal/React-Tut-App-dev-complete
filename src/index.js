@@ -61,7 +61,8 @@ import ReactDOM from 'react-dom/client';
 // import ResettingFormWithKey from './components/Resetting-form-with-key';
 // import TaskApp from './components/extracting-state-logic-into-reducer';
 // import PassingDataDeeplyWithContext from './components/passing-data-deeply-with-context';
-import UsingProvidingContextSameComponent from './components/using-providing-same-context-from-component';
+// import UsingProvidingContextSameComponent from './components/using-providing-same-context-from-component';
+import ContextPassesIntermediateComponents from './components/context-passes-through-intermediate-components';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -127,6 +128,7 @@ root.render(
     {/* <ResettingFormWithKey/> */}
     {/* <TaskApp/> */}
     {/* <PassingDataDeeplyWithContext/> */}
-    <UsingProvidingContextSameComponent/>
+    {/* <UsingProvidingContextSameComponent/> */}
+    <ContextPassesIntermediateComponents/>
   </React.StrictMode>
 );
