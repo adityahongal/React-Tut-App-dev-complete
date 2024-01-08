@@ -60,7 +60,8 @@ import ReactDOM from 'react-dom/client';
 // import ResettingStateSamePositionTwo from './components/Reset-state-same-position-2';
 // import ResettingFormWithKey from './components/Resetting-form-with-key';
 // import TaskApp from './components/extracting-state-logic-into-reducer';
-import PassingDataDeeplyWithContext from './components/passing-data-deeply-with-context';
+// import PassingDataDeeplyWithContext from './components/passing-data-deeply-with-context';
+import UsingProvidingContextSameComponent from './components/using-providing-same-context-from-component';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -125,6 +126,7 @@ root.render(
     {/* <ResettingStateSamePositionTwo/> */}
     {/* <ResettingFormWithKey/> */}
     {/* <TaskApp/> */}
-    <PassingDataDeeplyWithContext/>
+    {/* <PassingDataDeeplyWithContext/> */}
+    <UsingProvidingContextSameComponent/>
   </React.StrictMode>
 );

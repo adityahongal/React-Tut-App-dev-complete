@@ -77,3 +77,10 @@ export default function PassingDataDeeplyWithContext() {
     </Section>
   );
 }
+
+// It’s the same result as the original code, but you did not need to pass the level prop to each Heading component! 
+// Instead, it “figures out” its heading level by asking the closest Section above:
+
+// 1. You pass a level prop to the <Section>.
+// 2. Section wraps its children into <LevelContext.Provider value={level}>.
+// 3. Heading asks the closest value of LevelContext above with useContext(LevelContext).
