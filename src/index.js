@@ -65,7 +65,8 @@ import ReactDOM from 'react-dom/client';
 // import ContextPassesIntermediateComponents from './components/context-passes-through-intermediate-components';
 // import CombiningReducerWithContext from './components/combining-reducer-with-context';
 // import ReactAdvancedOverviewOne from './components/react-advanced-overview-1.js';
-import ReactAdvancedOverviewTwo from './react-advanced-overview-2.js';
+// import ReactAdvancedOverviewTwo from './react-advanced-overview-2.js';
+import ReactAdvancedOverviewThree from './react-advanced-overview-3.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -135,6 +136,7 @@ root.render(
     {/* <ContextPassesIntermediateComponents/> */}
     {/* <CombiningReducerWithContext/> */}
     {/* <ReactAdvancedOverviewOne/> */}
-    <ReactAdvancedOverviewTwo/>
+    {/* <ReactAdvancedOverviewTwo/> */}
+    <ReactAdvancedOverviewThree/>
   </React.StrictMode>
 );
