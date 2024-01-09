@@ -75,7 +75,8 @@ import ReactDOM from 'react-dom/client';
 // import StopwatchUsingRef from './stopwatch-using-ref.js';
 // import ManipulatingDOMRefOne from './manipulating-DOM-with-ref.js';
 // import ManipulatingDOMRefTwo from './scrolling-to-an-element.js';
-import AccesingAnotherComponentsDOM from './accessing-another-components-DOM.js';
+// import AccesingAnotherComponentsDOM from './accessing-another-components-DOM.js';
+import HowToWriteEffectOne from './components/how-to-write-effect-step-1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -155,6 +156,7 @@ root.render(
     {/* <StopwatchUsingRef/> */}
     {/* <ManipulatingDOMRefOne/> */}
     {/* <ManipulatingDOMRefTwo/> */}
-    <AccesingAnotherComponentsDOM/>
+    {/* <AccesingAnotherComponentsDOM/> */}
+    <HowToWriteEffectOne/>
   </React.StrictMode>
 );
