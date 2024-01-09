@@ -70,7 +70,8 @@ import ReactDOM from 'react-dom/client';
 // import ReactAdvancedOverviewFour from './components/react-advanced-overview-4';
 // import ReactAdvancedOverviewFive from './components/react-advanced-overview-5';
 // import ReactAdvancedOverviewSix from './components/react-advanced-overview-6';
-import ReactAdvancedOverviewSeven from './components/react-advanced-overview-7';
+// import ReactAdvancedOverviewSeven from './components/react-advanced-overview-7';
+import AddingRefToComponent from './adding-ref-to-component.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -145,6 +146,7 @@ root.render(
     {/* <ReactAdvancedOverviewFour/> */}
     {/* <ReactAdvancedOverviewFive/> */}
     {/* <ReactAdvancedOverviewSix/> */}
-    <ReactAdvancedOverviewSeven/>
+    {/* <ReactAdvancedOverviewSeven/> */}
+    <AddingRefToComponent/>
   </React.StrictMode>
 );
