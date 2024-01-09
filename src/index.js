@@ -74,7 +74,8 @@ import ReactDOM from 'react-dom/client';
 // import AddingRefToComponent from './adding-ref-to-component.js';
 // import StopwatchUsingRef from './stopwatch-using-ref.js';
 // import ManipulatingDOMRefOne from './manipulating-DOM-with-ref.js';
-import ManipulatingDOMRefTwo from './scrolling-to-an-element.js';
+// import ManipulatingDOMRefTwo from './scrolling-to-an-element.js';
+import AccesingAnotherComponentsDOM from './accessing-another-components-DOM.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -153,6 +154,7 @@ root.render(
     {/* <AddingRefToComponent/> */}
     {/* <StopwatchUsingRef/> */}
     {/* <ManipulatingDOMRefOne/> */}
-    <ManipulatingDOMRefTwo/>
+    {/* <ManipulatingDOMRefTwo/> */}
+    <AccesingAnotherComponentsDOM/>
   </React.StrictMode>
 );
