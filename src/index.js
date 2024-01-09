@@ -76,7 +76,8 @@ import ReactDOM from 'react-dom/client';
 // import ManipulatingDOMRefOne from './manipulating-DOM-with-ref.js';
 // import ManipulatingDOMRefTwo from './scrolling-to-an-element.js';
 // import AccesingAnotherComponentsDOM from './accessing-another-components-DOM.js';
-import HowToWriteEffectOne from './components/how-to-write-effect-step-1';
+// import HowToWriteEffectOne from './components/how-to-write-effect-step-1';
+import HowToWriteEffectTwo from './components/how-to-write-effect-step-2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -157,6 +158,7 @@ root.render(
     {/* <ManipulatingDOMRefOne/> */}
     {/* <ManipulatingDOMRefTwo/> */}
     {/* <AccesingAnotherComponentsDOM/> */}
-    <HowToWriteEffectOne/>
+    {/* <HowToWriteEffectOne/> */}
+    <HowToWriteEffectTwo/>
   </React.StrictMode>
 );
