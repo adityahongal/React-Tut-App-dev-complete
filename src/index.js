@@ -72,7 +72,8 @@ import ReactDOM from 'react-dom/client';
 // import ReactAdvancedOverviewSix from './components/react-advanced-overview-6';
 // import ReactAdvancedOverviewSeven from './components/react-advanced-overview-7';
 // import AddingRefToComponent from './adding-ref-to-component.js';
-import StopwatchUsingRef from './stopwatch-using-ref.js';
+// import StopwatchUsingRef from './stopwatch-using-ref.js';
+import ManipulatingDOMRefOne from './manipulating-DOM-with-ref.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -149,6 +150,7 @@ root.render(
     {/* <ReactAdvancedOverviewSix/> */}
     {/* <ReactAdvancedOverviewSeven/> */}
     {/* <AddingRefToComponent/> */}
-    <StopwatchUsingRef/>
+    {/* <StopwatchUsingRef/> */}
+    <ManipulatingDOMRefOne/>
   </React.StrictMode>
 );
