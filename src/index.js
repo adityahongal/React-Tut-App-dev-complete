@@ -68,7 +68,8 @@ import ReactDOM from 'react-dom/client';
 // import ReactAdvancedOverviewTwo from './react-advanced-overview-2.js';
 // import ReactAdvancedOverviewThree from './react-advanced-overview-3.js';
 // import ReactAdvancedOverviewFour from './components/react-advanced-overview-4';
-import ReactAdvancedOverviewFive from './components/react-advanced-overview-5';
+// import ReactAdvancedOverviewFive from './components/react-advanced-overview-5';
+import ReactAdvancedOverviewSix from './components/react-advanced-overview-6';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -141,6 +142,7 @@ root.render(
     {/* <ReactAdvancedOverviewTwo/> */}
     {/* <ReactAdvancedOverviewThree/> */}
     {/* <ReactAdvancedOverviewFour/> */}
-    <ReactAdvancedOverviewFive/>
+    {/* <ReactAdvancedOverviewFive/> */}
+    <ReactAdvancedOverviewSix/>
   </React.StrictMode>
 );
